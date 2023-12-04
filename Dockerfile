@@ -14,7 +14,7 @@ VOLUME ["/var/cache/apt-cacher-ng"]
 
 # Create a startup script
 COPY startup.sh /startup.sh
-COPY acng.conf /etc/apt-cacher-ng/
+#COPY acng.conf /etc/apt-cacher-ng/
 RUN chmod +x /startup.sh
 
 # Expose the apt-cacher-ng port
