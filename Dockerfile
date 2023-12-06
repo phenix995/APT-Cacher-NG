@@ -10,7 +10,7 @@ RUN apt install -y apt-cacher-ng wget avahi-daemon ca-certificates apt-transport
 VOLUME ["/var/cache/apt-cacher-ng"]
 
 # Copy a custom configuration file if needed
-#COPY acng.conf /etc/apt-cacher-ng/
+COPY acng.conf /etc/apt-cacher-ng/
 
 # Create a startup script
 COPY startup.sh /startup.sh
