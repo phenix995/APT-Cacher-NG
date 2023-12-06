@@ -4,7 +4,8 @@
 chmod 777 /var/cache/apt-cacher-ng
 
 # Append PassThroughPattern config for SSL/TLS proxying (optional)
-echo "PassThroughPattern: .*" >> /etc/apt-cacher-ng/acng.conf
+# add in conf file
+#echo "PassThroughPattern: .*" >> /etc/apt-cacher-ng/acng.conf
 
 # Start the service
 /etc/init.d/apt-cacher-ng start
