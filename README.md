@@ -1,5 +1,5 @@
 # APT-Cacher-NG
-# Latest branch
+# main branch
 
 # To build the image, run this command.
 docker build --tag custom-apt-cacher-ng:latest .
