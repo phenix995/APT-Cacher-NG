@@ -2,7 +2,7 @@
 
 
 # To build the image, run this command.
-docker build --tag custom-apt-cacher-ng .
+docker build --tag Phenix995/custom-apt-cacher-ng:latest .
 
 
 # To run this container, run this command.
